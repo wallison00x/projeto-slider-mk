@@ -40,7 +40,7 @@ function mostrarCartao(indiceCartao){
 }
 
 btnAvancar.addEventListener('click', function (){
-  if(cartaoAtual === cartoes.lenght - 1) return;
+  if(cartaoAtual === cartoes.length - 1) return;
   
   esconderCartaoSelecionado();
   
